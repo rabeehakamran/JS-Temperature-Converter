@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "echo Building Temperature Converter Project...",
-    "test" : "jest"
+    "build": "echo Building Temperature Converter Project...",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
